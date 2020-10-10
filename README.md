@@ -76,14 +76,22 @@ As you examine the data, you are overcome with a creeping suspicion that the dat
 1. Import the SQL database into Pandas. (Yes, you could read the CSVs directly in Pandas, but you are, after all, trying to prove your technical mettle.) This step may require some research. 
 
   -- load dependencies - create a config.py module to hide & load username/password --
+
 from sqlalchemy import create_engine
+
 import pandas as pd
+
 import matplotlib.pyplot as plt
+
 import numpy as np
+
 from config import username, password
 
   -- connect to database --
+  
+
 engine = create_engine(f'postgresql://{username}:{password}@localhost:5432/SQL Homework - Employee Database: A Mystery in Two Parts') 
+
 connection = engine.connect()
 
 If using a password, do not upload your password to your GitHub repository. See https://www.youtube.com/watch?v=2uaTPmNvH0I and https://help.github.com/en/github/using-git/ignoring-files for more information.
