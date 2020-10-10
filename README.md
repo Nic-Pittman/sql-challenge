@@ -28,8 +28,11 @@ Be sure to create tables in the correct order to handle foreign keys.
 Import each CSV file into the corresponding SQL table. Note be sure to import the data in the same order that the tables were created and account for the headers when importing to avoid errors.
 
 -- DATA ENGINEERING
+
 -- Exported ERD data from dbdiagram.io to build tables
+
 -- Import the csv files to corresponding tables
+
 CREATE TABLE "departments" (
   "dept_no" VARCHAR PRIMARY KEY,
   "dept_name" VARCHAR
