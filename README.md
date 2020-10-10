@@ -35,7 +35,7 @@ Completed Output Example:
 # Data Analysis
 Once you have a complete database, do the following:
 
-1. List the following details of each employee: employee number, last name, first name, sex, and salary.
+- 1. List the following details of each employee: employee number, last name, first name, sex, and salary.
 ![data_analysis_1](https://user-images.githubusercontent.com/69124282/95660704-8cc73f00-0af7-11eb-9bf2-9f57bb44ec07.jpg)
 
 2. List first name, last name, and hire date for employees who were hired in 1986.
