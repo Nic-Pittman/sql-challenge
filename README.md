@@ -75,6 +75,7 @@ As you examine the data, you are overcome with a creeping suspicion that the dat
 
 1. Import the SQL database into Pandas. (Yes, you could read the CSVs directly in Pandas, but you are, after all, trying to prove your technical mettle.) This step may require some research. 
 
+![bonus_part_1](https://user-images.githubusercontent.com/69124282/95661630-d10a0d80-0afe-11eb-8ee2-bf25ba4bb9f2.jpg)
 
 
 If using a password, do not upload your password to your GitHub repository. See https://www.youtube.com/watch?v=2uaTPmNvH0I and https://help.github.com/en/github/using-git/ignoring-files for more information.
