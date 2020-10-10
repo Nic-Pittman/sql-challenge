@@ -27,6 +27,8 @@ Be sure to create tables in the correct order to handle foreign keys.
 
 Import each CSV file into the corresponding SQL table. Note be sure to import the data in the same order that the tables were created and account for the headers when importing to avoid errors.
 
+Completed Output Example:
+
 ![employees](https://user-images.githubusercontent.com/69124282/95660668-55f12900-0af7-11eb-8542-6a093f92365e.jpg)
 
 
@@ -34,13 +36,29 @@ Import each CSV file into the corresponding SQL table. Note be sure to import th
 Once you have a complete database, do the following:
 
 1. List the following details of each employee: employee number, last name, first name, sex, and salary.
+![data_analysis_1](https://user-images.githubusercontent.com/69124282/95660704-8cc73f00-0af7-11eb-9bf2-9f57bb44ec07.jpg)
+
 2. List first name, last name, and hire date for employees who were hired in 1986.
+![data_analysis_2](https://user-images.githubusercontent.com/69124282/95660705-8d5fd580-0af7-11eb-9cde-1f3f154b6a75.jpg)
+
 3. List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name.
+![data_analysis_3](https://user-images.githubusercontent.com/69124282/95660706-8d5fd580-0af7-11eb-8db6-c1d1528bd945.jpg)
+
 4. List the department of each employee with the following information: employee number, last name, first name, and department name.
+![data_analysis_4](https://user-images.githubusercontent.com/69124282/95660699-8cc73f00-0af7-11eb-869c-586b258cf736.jpg)
+
 5. List first name, last name, and sex for employees whose first name is "Hercules" and last names begin with "B."
+![data_analysis_5](https://user-images.githubusercontent.com/69124282/95660700-8cc73f00-0af7-11eb-8cdb-bf01ad631448.jpg)
+
 6. List all employees in the Sales department, including their employee number, last name, first name, and department name.
+![data_analysis_6](https://user-images.githubusercontent.com/69124282/95660701-8cc73f00-0af7-11eb-8a61-d63fae85d63e.jpg)
+
 7. List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
+![data_analysis_7](https://user-images.githubusercontent.com/69124282/95660702-8cc73f00-0af7-11eb-9605-aa8b5a821d20.jpg)
+
 8. In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
+![data_analysis_8](https://user-images.githubusercontent.com/69124282/95660703-8cc73f00-0af7-11eb-8408-5ad85919f203.jpg)
+
 
 
 # Bonus (Optional)
