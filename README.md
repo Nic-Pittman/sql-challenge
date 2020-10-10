@@ -27,7 +27,7 @@ Be sure to create tables in the correct order to handle foreign keys.
 
 Import each CSV file into the corresponding SQL table. Note be sure to import the data in the same order that the tables were created and account for the headers when importing to avoid errors.
 
-Completed Output Example:
+- Completed Output Example:
 
 ![employees](https://user-images.githubusercontent.com/69124282/95660668-55f12900-0af7-11eb-8542-6a093f92365e.jpg)
 
